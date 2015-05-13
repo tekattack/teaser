@@ -64,7 +64,7 @@ html, body {
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 75px;
 	font-weight: bold;
 	color: #fff;
 	text-shadow: 0 1px 4px #000;
@@ -73,7 +73,7 @@ h1 {
 
 p {
 	width: 80%;
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 1.3em;
 	color: #fff;
 	margin: 1.1em auto;
@@ -93,6 +93,12 @@ p a {
 p a:hover {
 	color: #2da1ec;
 	border-bottom: 2px solid #fff;
+}
+
+#container img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 #subscribe {
@@ -208,7 +214,13 @@ input[type=submit]:active {
 		margin-left: -230px;
 	}
 
+  #container img {
+    max-width: 50%;
+  }
 
+  h1 {
+    font-size: 60px
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -216,7 +228,15 @@ input[type=submit]:active {
 	#container {
 		width: 300px;
 		margin-left: -150px;
-}
+  }
+
+  #container img {
+    max-width: 50%;
+  }
+
+  h1 {
+    font-size: 50px
+  }
 
 	input {
 		font-size: 20px;
